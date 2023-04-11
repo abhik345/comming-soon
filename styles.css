@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  /* background-color: #9b59b6; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 81, 121, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h2 {
+  cursor: pointer;
+  padding: 4px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.list li {
+  list-style: none;
+  padding: 10px 20px;
+}
+.list li a {
+  text-decoration: none;
+
+  color: #fff;
+}
+.navbar .btn:hover {
+  background-color: #fff;
+  color: #9b59b6;
+}
+
+.contact input {
+  border: 0.5px solid #d2d2d2;
+  padding: 6px;
+  outline: none;
+  border-radius: 5px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  border-radius: 50%;
+  position: relative;
+  width: 20rem;
+  transition: all 0.4s;
+  box-shadow: 1px 7px 13px 0 #58555369;
+}
+/* .image img:hover {
+  width: 22rem;
+  transition: all 0.4s ease-in;
+} */
+
+/* .present p:hover {
+  font-size: 20px;
+  cursor: none;
+} */
+.present {
+  margin: 20px;
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#hours,
+#minutes,
+#seconds {
+  font-size: 2rem;
+  padding: 20px;
+}
